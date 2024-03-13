@@ -1,0 +1,6 @@
+﻿Sample prompt: "Get me list of soft drinks"
+Complition: SELECT Products.ProductName
+FROM Products
+INNER JOIN Categories
+ON Products.CategoryID = Categories.CategoryID
+WHERE Categories.CategoryName like '%Soft Drinks%' OR Categories.Description like '%Soft Drinks%' // because we assume, that 'soft drinks' can be in the description as well

@@ -1,0 +1,17 @@
+﻿Given the following SQL schema, provide a concise summary that includes 
+- Names and purposes of tables.
+- Every column of each table, including types of columns and the information that each column possibly holds.
+- Important relationships between tables (e.g., foreign keys, many-to-many relationships).
+- Any unique constraints or indexes that are crucial for understanding the database's structure and functionality.the purpose of each table, key columns and their types, and the relationships between tables. 
+
+Format the summary with bullet points for clarity.
+
+If any table has unique constraints, indexes, or special rules, briefly describe those as well. Ensure the description is succinct but informative
+
+Assume, that the output will be used to generate SQL queries based on human textual input.
+
+Don't include Views and stored procedures in the summary.
+
+If no SQL provided, return 'please, include SQL script that contains the schema'
+
+SQL Script to summarize is 

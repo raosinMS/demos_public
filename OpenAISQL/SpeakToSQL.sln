@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakToSQL.ConsoleUI", "SpeakToSQL.ConsoleUI\SpeakToSQL.ConsoleUI.csproj", "{A6743DE7-C533-49E1-9BDE-ED193FD42790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakToSQL.API", "SpeakToSQL.API\SpeakToSQL.API.csproj", "{6F9F4A72-D580-4DF9-80C6-EB734D43D1D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6743DE7-C533-49E1-9BDE-ED193FD42790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6743DE7-C533-49E1-9BDE-ED193FD42790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6743DE7-C533-49E1-9BDE-ED193FD42790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6743DE7-C533-49E1-9BDE-ED193FD42790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9F4A72-D580-4DF9-80C6-EB734D43D1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9F4A72-D580-4DF9-80C6-EB734D43D1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9F4A72-D580-4DF9-80C6-EB734D43D1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9F4A72-D580-4DF9-80C6-EB734D43D1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4992731F-5F08-44B5-919C-C6B10AFCA123}
+	EndGlobalSection
+EndGlobal

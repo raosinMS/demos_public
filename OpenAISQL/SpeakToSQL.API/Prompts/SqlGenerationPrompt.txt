@@ -1,0 +1,3 @@
+﻿- Returned value should be pure SQL without any comments or explanations, so it can be used in the code directly
+- Generated SQL will be used in Microsoft SQL Server
+- when filtering from column that containes string type data, use 'like' operator instead of '=' in sql
