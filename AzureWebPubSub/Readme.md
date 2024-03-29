@@ -1,3 +1,10 @@
+#Production flow
+1. CLient request connection URI with token from backend server
+2. With URI new connection is set up
+3. Client with new connection receives connectionID and reconnectionToken
+4. When connection drops client creates reconnection URI using reconnectionID and reconnectionToken
+5. When reconnection token expire (~1week) client renegotiate new connection URI with backend server 
+
 ## Publisher-Server - generated messages on hub
 ## Subscriber-Client - receives messages from hub
 ## TokenGenerator - generate token to initiate connection
