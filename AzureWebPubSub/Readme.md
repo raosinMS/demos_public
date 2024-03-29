@@ -1,6 +1,6 @@
-# Publisher-Server - generated messages on hub
-# Subscriber-Client - receives messages from hub
-# TokenGenerator - generate token to initiate connection
+## Publisher-Server - generated messages on hub
+## Subscriber-Client - receives messages from hub
+## TokenGenerator - generate token to initiate connection
 
 
 # Connection URI schena:
