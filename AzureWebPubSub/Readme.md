@@ -1,4 +1,4 @@
-#Production flow
+# Production flow
 1. CLient request connection URI with token from backend server
 2. With URI new connection is set up
 3. Client with new connection receives connectionID and reconnectionToken
